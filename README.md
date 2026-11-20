@@ -1,4 +1,4 @@
-# ⛏️ Miner Simulator
+# Miner Simulator
 
 **A Mining Simulation Game Based on CPU Scheduling Algorithms**
 
