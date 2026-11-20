@@ -97,9 +97,9 @@ The following keyboard shortcuts are used to navigate the game and access its in
 
 | Key | Action |
 |:---:|---|
-| `W` | Move forward |
+| `W` | Move up |
 | `A` | Move left |
-| `S` | Move backward |
+| `S` | Move down |
 | `D` | Move right |
 | `I` | Open Player Inventory |
 | `O` | Open Forge/Furnace Inventory |
@@ -109,6 +109,9 @@ The following keyboard shortcuts are used to navigate the game and access its in
 | `TAB` (Hold) | Display upgrade descriptions while the Upgrade Interface is open |
 | `L` | Add 1,000 coins (Testing Command) |
 | `K` | Reset coin balance to zero (Testing Command) |
+| `1` | Select First Come, First Served (FCFS) to process forge ores |
+| `2` | Select Non-Preemptive Priority Scheduling (NPPS) to process forge ores |
+
 
 ---
 
@@ -148,14 +151,8 @@ Each ore has an assigned Burst Time, which determines its processing duration.
 
 Once processing is completed, the corresponding coin value is added to the player's balance.
 
-### 5. Mine Cart System
 
-The mine cart provides an additional inventory system for resource management.
-
-- Press `P` to access the Mine Cart Inventory.
-- Use `M` and `N` to toggle mine cart movement.
-
-### 6. Upgrade System
+### 5. Upgrade System
 
 Press `U` to open the Upgrade Interface.
 
